@@ -1,8 +1,7 @@
 import React,{ Component } from 'react';
 import Lists from '../lists/Lists'
-
 import { createStackNavigator } from '@react-navigation/stack';
-import Detalle from '../lists/ListDetail';
+ import ListDetail from '../lists/ListDetail'
 
 const ListStack = createStackNavigator();
 
@@ -11,7 +10,7 @@ return(
 <ListStack.Navigator>
 
     <ListStack.Screen name="Lists" component={Lists} />
-    <ListStack.Screen name="ListDetail" component={Detalle} />
+    <ListStack.Screen name="ListDetail" component={ListDetail} />
 
 </ListStack.Navigator>
 )
