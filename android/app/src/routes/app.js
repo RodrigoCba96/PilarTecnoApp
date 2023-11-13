@@ -15,5 +15,6 @@ islogged? (
 )
 }
 </Stack.Navigator>
+
 )
 }
